@@ -2,9 +2,9 @@
 "
 " Name:        norwaytoday.vim
 " Maintainer:  Josh O'Rourke <jorourke23@gmail.com> 
-" Last Change: 29 Jan 2009 
+" Last Change: 10 Feb 2009 
 " License:     public domain
-" Version:     0.7
+" Version:     0.8
 "
 " This theme is based on the Netbeans "Norway Today" theme.
 
@@ -29,6 +29,9 @@ if has("gui_running")
   highlight PmenuSel                  guifg=#dcdccc guifg=grey10
   highlight PmenuSbar                 guibg=#dcdccc
   highlight PmenuThumb                guifg=#dcdccc
+
+  " Folds
+  highlight Folded                    guifg=white   guibg=black
 
   "rubyComment
   highlight Comment                   guifg=#428BDD gui=italic
